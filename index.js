@@ -100,7 +100,7 @@ function drawTiles () {
 		for (var x = 0; x < graph.grid[y].length; x++) {
 			const node = graph.grid[y][x]
 			if (node.weight === 0) {
-				ctx.fillStyle = 'rgba(255, 0, 0, 1)'
+				ctx.fillStyle = 'rgba(0, 0, 0, 1)'
 				ctx.fillRect(x * tileSize, y * tileSize, tileSize, tileSize)
 			}
 		}
